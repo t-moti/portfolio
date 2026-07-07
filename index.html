@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Moti — Aerospace Engineering Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="progress-track" aria-hidden="true"><div id="progress-fill"></div></div>
+
+<header id="site-header">
+  <a href="#top" class="logo">M<span>.</span></a>
+  <nav>
+    <a href="#resume">Resume</a>
+    <a href="#courses">Courses</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <button id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-text">
+      <p class="eyebrow">Aerospace Engineering — 2nd Year</p>
+      <h1>Building things that<br>leave the ground.</h1>
+      <p class="hero-sub">Structures, propulsion, and control systems — studied, modeled, and tested from first principles.</p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View projects</a>
+        <a href="assets/resume/resume.pdf" class="btn btn-ghost" download>Download résumé</a>
+      </div>
+    </div>
+    <svg class="hero-path" viewBox="0 0 600 400" preserveAspectRatio="none" aria-hidden="true">
+      <path id="trajectory" d="M -20 350 C 120 350, 160 120, 300 100 S 520 40, 620 -10" />
+      <circle id="trajectory-dot" r="5" cx="-20" cy="350" />
+    </svg>
+  </section>
+
+  <!-- RESUME -->
+  <section id="resume" class="section">
+    <div class="section-head">
+      <span class="section-index">01</span>
+      <h2>Résumé</h2>
+    </div>
+    <div class="resume-grid">
+      <div class="resume-summary">
+        <p>Second-year aerospace engineering student focused on structural analysis, thermodynamics, and flight mechanics. Comfortable moving between hand calculations and simulation, and between the lab bench and CAD.</p>
+        <a href="assets/resume/resume.pdf" class="link-arrow" download>Download full résumé (PDF) →</a>
+      </div>
+      <ol class="timeline">
+        <li>
+          <span class="timeline-year">2025 —</span>
+          <div>
+            <h3>B.Sc. Aerospace Engineering</h3>
+            <p>Core coursework in thermodynamics, aerodynamics, structures, and controls. Ongoing.</p>
+          </div>
+        </li>
+        <li>
+          <span class="timeline-year">2024</span>
+          <div>
+            <h3>Foundation year</h3>
+            <p>Mathematics, physics, and introductory mechanics.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- COURSES -->
+  <section id="courses" class="section alt">
+    <div class="section-head">
+      <span class="section-index">02</span>
+      <h2>Coursework</h2>
+    </div>
+    <div class="course-grid" id="course-grid"></div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="section-head">
+      <span class="section-index">03</span>
+      <h2>Projects</h2>
+    </div>
+    <div class="project-grid" id="project-grid"></div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section alt">
+    <div class="section-head">
+      <span class="section-index">04</span>
+      <h2>Contact</h2>
+    </div>
+    <div class="contact-grid" id="contact-grid"></div>
+  </section>
+
+</main>
+
+<footer>
+  <p>© <span id="year"></span> Moti. Built from scratch.</p>
+</footer>
+
+<!-- PROJECT DETAIL OVERLAY -->
+<div id="project-overlay" class="overlay" aria-hidden="true" role="dialog" aria-modal="true">
+  <div class="overlay-inner">
+    <button class="overlay-close" id="overlay-close" aria-label="Close">×</button>
+    <div id="overlay-content"></div>
+  </div>
+</div>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
