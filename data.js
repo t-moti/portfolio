@@ -16,7 +16,7 @@ const SKILLS = [
     id: "catia",
     category: "CAD / Modeling",
     name: "CATIA V5",
-    summary: "Parametric 3D modeling, assemblies, and macro automation for mechanical design.",
+    summary: "Parametric 3D modeling, assemblies, generative shape design, and drafting and more,... for mechanical design.",
     resources: [
       { type: "course", title: "CATIA V5 Fundamentals", provider: "Udemy", link: "https://www.udemy.com" },
       { type: "book", title: "CATIA V5 Workbook", provider: "SDC Publications", link: "" },
@@ -109,26 +109,26 @@ const CURRENTLY_LEARNING = [
 const CONTACTS = [
   {
     label: "Email",
-    value: "your.name@email.com",
-    href: "mailto:your.name@email.com",
+    value: "motahare.talebi24@email.com",
+    href: "mailto:motahare.talebi24@email.com",
     icon: `<path d="M4 4h16v16H4z" stroke-width="2" fill="none"/><path d="M4 6l8 7 8-7" stroke-width="2" fill="none"/>`
   },
   {
     label: "LinkedIn",
-    value: "linkedin.com/in/yourname",
-    href: "https://linkedin.com/in/yourname",
+    value: "linkedin.com/in/motahare-talebi-394b03398",
+    href: "https://linkedin.com/in/motahare-talebi-394b03398",
     icon: `<rect x="4" y="4" width="16" height="16" rx="2" stroke-width="2" fill="none"/><path d="M8 10v6M8 8v.01M12 16v-4a2 2 0 0 1 4 0v4" stroke-width="2" fill="none"/>`
   },
   {
     label: "GitHub",
-    value: "github.com/yourname",
-    href: "https://github.com/yourname",
+    value: "github.com/t-moti",
+    href: "https://github.com/t-moti",
     icon: `<path d="M12 3a9 9 0 0 0-2.85 17.54c.45.08.6-.2.6-.43v-1.68c-2.5.55-3.03-1.2-3.03-1.2-.4-1.05-1-1.33-1-1.33-.83-.56.06-.55.06-.55.9.06 1.38.94 1.38.94.8 1.38 2.1.98 2.6.75.08-.58.32-.98.57-1.2-2-.22-4.1-1-4.1-4.5 0-1 .35-1.8.94-2.44-.1-.22-.4-1.13.1-2.36 0 0 .77-.25 2.5.94a8.6 8.6 0 0 1 4.56 0c1.73-1.2 2.5-.94 2.5-.94.5 1.23.2 2.14.1 2.36.6.64.94 1.44.94 2.44 0 3.5-2.1 4.28-4.1 4.5.33.29.62.85.62 1.72v2.55c0 .23.15.5.6.42A9 9 0 0 0 12 3z" stroke-width="1.5" fill="none"/>`
   },
   {
     label: "Phone",
-    value: "+00 000 000 0000",
-    href: "tel:+000000000000",
+    value: "+98 992 641 1154",
+    href: "tel:+989926411154",
     icon: `<path d="M6 3h4l2 5-2.5 1.5a11 11 0 0 0 5 5L16 12l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 4 5a2 2 0 0 1 2-2z" stroke-width="2" fill="none"/>`
   }
 ];
